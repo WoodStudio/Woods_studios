@@ -1,0 +1,715 @@
+/* barra de navegacion */
+
+/* .nombre_marca{
+    padding-top: 20px;
+    font-size: 2rem;
+} */
+
+.navbar {
+    padding: 2rem;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+
+
+
+
+
+.navbar-collapse {
+
+    align-items: center;
+    justify-content: center;
+    /*crea un espacio entre el icono y los textos*/
+    font-family: 'Rajdhani', sans-serif;
+
+
+
+}
+
+.navbar .navbar-collapse {
+
+    align-items: center;
+    font-size: 25px;
+
+
+}
+
+.nav-link {
+
+    color: black;
+
+}
+
+.logo-conejo {
+    width: 35px;
+
+}
+
+.navbar-brand .conejo {
+
+    height: 50px;
+    transition: 1s ease;
+}
+
+.navbar-brand .conejo:hover {
+
+    height: 70px;
+
+}
+
+
+
+
+.navbar .navbar-collapse .nav-item:hover {
+    /*effecto cuando el raton esta encima del objeto y cambia alguno */
+
+    text-decoration: 1px solid underline black;
+    text-underline-position: under;
+    text-underline-offset: 5px;
+    transition: 1s ease;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+/* Estilos generales */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    /*es una option de tamaño relativo de letra*/
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.seccion-oscura {
+    color: White;
+    background-color: #e0e0e0ad;
+    box-shadow: 0px 0px 25px 10px #e0e0e0ad;
+}
+
+
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1, 2rem;
+    color: black;
+
+}
+
+
+
+.seccion-texto {
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.seccion-descripcion {
+    font-size: 1.75rem;
+    padding: 15px 0;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+.btn-secondary {
+    font-size: 1.1rem;
+    margin: 20;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(240, 240, 240);
+
+}
+
+.texto-negro {
+    font-size: 1, 2rem;
+}
+
+.texto-blanco {
+    color: white;
+}
+
+
+/* banner principal------------------------------------- */
+
+.rosa .carousel-item .container{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.banner_principal {
+    background-image: url(imagenes/Hecho_a_mano_para_tu_hogar.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+
+}
+
+
+.talla {
+
+    height: 800px;
+
+}
+
+.boton_principa {
+    width: 20%;
+    margin-left: 40%;
+    margin-right: auto;
+    height: 5%;
+    margin-bottom: auto;
+    margin-top: auto;
+
+
+}
+
+.Handmade {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 25%;
+ 
+}
+
+
+.Wood {
+
+    color: white;
+    font-size: 2rem;
+    float: right;
+
+}
+
+
+
+/*------------------proyecto1------------------------*/
+
+.proyectos-imagen {
+    height: 500px;
+   
+    margin: 10px 10px 20px 10px;
+
+}
+
+
+/* seccion Hero */
+.hero {
+    background-color: white;
+    min-height: 450px;
+    text-align: center;
+
+}
+
+/* sobremi */
+
+.sobre-mi {
+    height: 700px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor {
+
+    max-width: 600px;
+    text-align: center;
+
+}
+
+.hero-pricipal {
+
+    padding: 3rem;
+
+}
+
+.hero-pricipal h2 {
+
+    padding: 1.5rem;
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+
+.hero-imagen-desarollador {
+    width: 200px;
+    height: 200px;
+    
+    margin: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* experiencia */
+.experiencia {
+
+    padding: 40px 40px 60px 40px;
+
+}
+
+.experiencia .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.5s ease-in;
+    border-collapse: collapse;
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+
+
+
+}
+
+
+
+.experiencia .columna:hover {
+    /*effecto cuando el raton esta encima del objeto y cambia alguno */
+    color: white;
+    background-color: #555555b7;
+
+
+
+}
+
+.experiencia .columna:hover i {
+    /*effecto cuando el raton esta encima del objeto y cambia alguno */
+    color: white;
+    background-color: #b9b9b9b7;
+
+
+}
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
+
+}
+
+.badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+
+
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: white;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.botton_designe{
+
+    width: 100%;
+    display: block;
+}
+
+
+
+/* proyectos */
+
+.proyectos-recientes {
+    padding: 40px;
+
+}
+
+.proyectos-recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+
+
+}
+
+.proyectos-contenedor {
+
+    padding-top: 60px;
+    margin-bottom: 40px;
+
+}
+
+.overlay {
+    transition: all 0.9s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.proyecto {
+    position: relative;
+
+}
+
+.overlay p {
+
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+    transition: all 0.9s ease;
+}
+
+
+.proyecto:hover img {
+    opacity: 0.2;
+    transition: all 0.9s ease;
+
+
+}
+
+.proyecto:hover .overlay {
+
+    opacity: 1;
+    text-align: center;
+    transition: all 0.9s ease;
+}
+
+.overlay .iconos-contenedor {
+
+    display: flex;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.overlay i {
+    color: black;
+    font-size: 40px;
+    width: 70%;
+    padding-left: 30%;
+    padding-right: 30%;
+
+}
+
+/* Articulos */
+.articulos {
+    min-height: 600px;
+    padding: 30px;
+
+
+}
+
+.articulos .card {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.articulos .card-header {
+
+    font-weight: bold;
+}
+
+
+/* Testimonios */
+
+.testimonios {
+    padding: 40px 40px 80px 40px;
+}
+
+.testimonios .carousel {
+    max-width: 800px;
+    /*genera q la seccion no sea mas grande q 600px*/
+}
+
+.testimonios .carousel-item {
+    height: 600px;
+    /*genera q la imagenes no sean muy grande y les pone un limite*/
+}
+
+.testimonios .carousel-item .container {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.testimonio-imagen {
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 20px 10px;
+
+}
+
+.testimonio-texto {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.testimonio-info p {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+.testimonio-info .cliente {
+    font-size: 1.2rem;
+}
+
+.testimonio-info .cargo {
+    font-size: 0.9rem;
+    color: #656060;
+}
+
+
+.testimonios h2 {
+
+    padding: 1.5rem;
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.testimonios h3 {
+
+    padding: 1.5rem;
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+/* contacto */
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo {
+    margin-top: -5rem;
+    background-color: rgba(121, 121, 121, 0.616);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+    /*dara una sombra al rectangulo*/
+
+}
+
+
+
+
+.contacto .descripcion {
+
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contacto button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2 ease-in-out;
+    /*la transision chequea varios */
+
+
+}
+
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.contacto button:hover {
+    background-color: white;
+    /* option se ejecuta cuando el rato esta encima del botton*/
+    color: black;
+}
+
+.contacto .row .hablemos {
+    color: white;
+}
+
+.contacto button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.contacto button:hover i {
+    color: black;
+
+}
+
+
+
+
+/* Pie de pagina footer */
+
+footer {
+    min-height: 500px;
+}
+
+.footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Rajdhani', sans-serif;
+    color: black;
+}
+
+
+
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: all 0.2s;
+    color: greenyellow;
+}
+
+.iconos-redes-sociales i {
+    color: black;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid black;
+}
+
+.iconos-redes-sociales a:hover i {
+    color: black;
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
+
+.i2 {
+    color: #0a0a23;
+}
+
+/* adaptable responsible */
+
+@media screen and (max-width: 400px) {
+
+    .overlay p {
+        font-size: 18px;
+    }
+
+    .overlay i {
+        font-size: 40px;
+    }
+
+
+}
+
+@media screen and (max-width: 775px) {
+    .navbar-brand {
+        display: none;
+    }
+
+    .lenguaje {
+        display: none;
+    }
+
+    .cafe {
+
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 720px) {
+
+    .hero-inferior-imagen {
+        max-width: 500px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 800px) {
+    .testimonio-imagen {
+        height: 120px;
+        width: 120px;
+    }
+
+    .testimonio-texto {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .banner_principal {
+        display: none;
+
+    }
+}
