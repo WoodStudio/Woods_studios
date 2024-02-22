@@ -85,10 +85,18 @@ section {
     margin-top: 40px;
 }
 
-h1 {
+.hero-imagen-desarollador h1 {
     font-size: 2.5rem;
     /*es una option de tamaño relativo de letra*/
     font-family: 'Rajdhani', sans-serif;
+    
+}
+
+.hero-imagen-desarollador2 h1 {
+    font-size: 2.5rem;
+    /*es una option de tamaño relativo de letra*/
+    font-family: 'Rajdhani', sans-serif;
+    
 }
 
 .seccion-oscura {
@@ -116,7 +124,7 @@ h1 {
 
 
 .seccion-texto {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     color: black;
     font-family: 'Rajdhani', sans-serif;
 }
@@ -143,6 +151,7 @@ h1 {
 
 .texto-blanco {
     color: white;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 
@@ -208,7 +217,6 @@ h1 {
 }
 
 
-
 /*------------------proyecto1------------------------*/
 
 .proyectos-imagen {
@@ -226,6 +234,14 @@ h1 {
     text-align: center;
 
 }
+
+.hero2 {
+    background-color: white;
+    min-height: 450px;
+    text-align: center;
+
+}
+
 
 /* sobremi */
 
@@ -247,7 +263,20 @@ h1 {
 
 }
 
+.hero-pricipal2 {
+
+    padding: 3rem;
+
+}
+
 .hero-pricipal h2 {
+
+    padding: 1.5rem;
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.hero-pricipal2 h2 {
 
     padding: 1.5rem;
     color: black;
@@ -265,6 +294,23 @@ h1 {
 }
 
 
+.hero-imagen-desarollador2 {
+    width: 200px;
+    height: 200px;
+    
+    margin: 20px;
+
+}
+
+
+
+.hero_foto{
+    background-image: url(/imagenes/describcion_wood_studio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-size: cover;
+}
 
 
 
@@ -281,7 +327,7 @@ h1 {
 }
 
 .experiencia .columna {
-    padding: 20px;
+    padding: 6rem;
     border: 2px solid #8080804d;
     display: flex;
     flex-direction: column;
@@ -346,6 +392,38 @@ h1 {
 
     width: 100%;
     display: block;
+}
+
+.designe{
+
+    background-image: url(/imagenes/Designe_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+
+
+.accordion{
+width: 300px;
+}
+
+.manufacture{
+    background-image: url(/imagenes/manufacturacion_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+
+
+}
+
+
+.Install{
+    background-image: url(/imagenes/install.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+      background-size: cover;
+
+
 }
 
 
@@ -685,13 +763,16 @@ footer {
 
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 800px) {
 
     .hero-inferior-imagen {
         max-width: 500px;
     }
 
-
+    .hero2  {
+        display: none;
+        
+    }
 
 }
 
@@ -712,4 +793,18 @@ footer {
         display: none;
 
     }
+
+    .hero  {
+        display: none;
+        
+    }
+
+    .seccion-texto{
+
+        font-size: 0.8rem;
+        color: black;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+    }
+
 }
